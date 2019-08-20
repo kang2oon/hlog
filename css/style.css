@@ -12,7 +12,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Ubuntu", "Roboto", "Open Sans", "Microsoft YaHei", sans-serif;
+  font-family: family-sans;
 }
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
@@ -389,7 +389,7 @@ img.thumbnail {
 .content code,
 .content pre {
   font-size: 0.85em;
-  font-family: "Source Code Pro", monospace, "Microsoft YaHei";
+  font-family: family-mono;
 }
 .content code {
   color: #ff3860;
@@ -443,7 +443,7 @@ figure.highlight figcaption:after {
 }
 figure.highlight figcaption span {
   font-weight: 500;
-  font-family: "Source Code Pro", monospace, "Microsoft YaHei";
+  font-family: family-mono;
 }
 figure.highlight figcaption .fold,
 figure.highlight figcaption a {
