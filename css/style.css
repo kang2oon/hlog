@@ -12,8 +12,9 @@ button,
 input,
 select,
 textarea {
-  font-family: family-sans;
+  font-family: NanumSquareRound, "Helvetica Neue", sans-serif;
 }
+/*font-family: family-sans*/
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container {
