@@ -210,6 +210,18 @@ img.thumbnail {
 .article .content a {
   word-wrap: break-word;
 }
+a[rel='noopener'] {
+  margin: 10px 0;
+  line-height: 1;
+  border: 3px rgba(255,238,51,0.99);
+  border-style: none none solid;
+}
+a[rel='noopener']:hover {
+  background: rgba(255,238,51,0.99);
+}
+.tag-group {
+  display: block;
+}
 .rtl {
   direction: rtl;
 }
