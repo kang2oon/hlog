@@ -531,3 +531,9 @@ figure.highlight .section {
 .gist .file {
   all: initial;
 }
+/* ---------------------------------
+ *        kang2oon Modify
+ * --------------------------------- */
+figure.is-128x128 {
+  margin: 0 auto;
+}
