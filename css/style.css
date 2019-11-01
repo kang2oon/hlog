@@ -537,3 +537,14 @@ figure.highlight .section {
 figure.is-128x128 {
   margin: 0 auto;
 }
+.content table {
+  border-color: #dbdbdb;
+  border-style: solid none;
+  border-width: 2px;
+}
+.content table thead th {
+  background: #f5f5f5;
+}
+.content table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
